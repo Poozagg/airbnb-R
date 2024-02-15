@@ -37,7 +37,7 @@ section {
 .card {
     /* display: flex;
     flex-direction: column; */
-    width: 110px;
+    width: 200px;
     font-size: 12px;
 }
 .card--photo {
