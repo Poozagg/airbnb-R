@@ -17,7 +17,7 @@ nav {
     max-width: 100px;
 }
 .hero--photo {
-    max-width: 400px;
+    max-width: 100%;
     align-items: center;
 }
 section {
