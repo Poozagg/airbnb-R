@@ -1,8 +1,16 @@
 import React from "react"
 
 export default function Card(props) {
+    let badgeText
+    if (props.openSpots ===0) {
+        badgeText = "SOLD OUT"
+      } else if (props.location === "Online") {
+        badgeText = "ONLINE"
+        }
+
     return (
         <div className="card">
+            {badgeText && <div className="card--badge"> {badgeText} </div>}
             {/* src: inside jsx {} --> backticks `help us to use javascrpit & interpolate javascript object`  */}
             <img className="card--photo" src={`../images/${props.img}`} alt="Main card photo"/>
             <div className="card--stats">
