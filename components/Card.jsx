@@ -12,7 +12,7 @@ export default function Card(props) {
         <div className="card">
             {badgeText && <div className="card--badge"> {badgeText} </div>}
             {/* src: inside jsx {} --> backticks `help us to use javascrpit & interpolate javascript object`  */}
-            <img className="card--photo" src={`../images/${props.img}`} alt="Main card photo"/>
+            <img className="card--photo" src={`../images/${props.coverImg}`} alt="Main card photo"/>
             <div className="card--stats">
                 <img className="card--rating" src="../images/star.png" alt="Star icon"/>
                 <span className="card--gray">{props.rating}</span>
