@@ -7,6 +7,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.cards-list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+
+}
 nav {
     height: 60px;
     display: flex;
@@ -43,6 +50,8 @@ section {
 .card--photo {
     width: 100%;
     border-radius: 9px;
+    height: 200px;
+    object-fit: cover;
 }
 .card--stats {
     display: flex;

@@ -12,7 +12,7 @@ export default function Card({img, rating, reviews, location, title, price}) {
                 <span>{location}</span>
             </div>
             <h2>{title}</h2>
-            <p><span className="card--bold"> {price}</span> / person</p>
+            <p><span className="card--bold"> From ${price}</span> / person</p>
         </div>
     )
 }
