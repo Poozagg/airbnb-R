@@ -7,6 +7,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.cards-list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+
+}
 nav {
     height: 60px;
     display: flex;
@@ -17,7 +24,7 @@ nav {
     max-width: 100px;
 }
 .hero--photo {
-    max-width: 400px;
+    max-width: 100%;
     align-items: center;
 }
 section {
@@ -37,12 +44,14 @@ section {
 .card {
     /* display: flex;
     flex-direction: column; */
-    width: 110px;
+    width: 200px;
     font-size: 12px;
 }
 .card--photo {
     width: 100%;
     border-radius: 9px;
+    height: 200px;
+    object-fit: cover;
 }
 .card--stats {
     display: flex;
