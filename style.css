@@ -9,9 +9,10 @@ body {
 
 .cards-list {
   display: flex;
-  gap: 12px;
+  gap: 20px;
   overflow-x: auto;
   flex-wrap: nowrap;
+  justify-content: space-evenly;
 
 }
 nav {
